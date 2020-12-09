@@ -1,0 +1,232 @@
+#pagecontainer {
+  position: relative;
+  min-height: 100vh;
+  text-align: center;
+}
+a{font-family: arial, sans-serif;
+text-decoration:none;
+}
+
+#contentwrap {
+  padding-bottom: 10rem;
+}
+
+
+ul{list-style-type: none;
+  margin: 0;
+  padding: 0;
+margin: 0;
+padding: 0;
+font-size: 2vh;
+}
+.images{ position: relative;
+  top: 15px ;
+margin-left:8px;
+color: black;
+font-size:13px;
+}
+
+.images:hover {text-decoration: underline;
+}
+.appdrawer{position: relative;
+
+  width:25px;
+  height: 20px;
+  border: 0;
+  margin-top: 15px ;
+  margin-left: 15px;
+  margin-right:0;
+  display: inline-block;
+  cursor: pointer;
+
+}
+
+
+header .right li{ float:right;
+}
+
+header .left li{ float:left;
+}
+.gmail{ position: relative;
+  top:15px;
+  padding:10px;
+  font-size: 13px;
+color: black;
+
+}
+.gmail:hover{ text-decoration:underline;
+}
+
+.about{ position: relative;
+top: 15px;
+right: 27px;
+margin-left: 10px;
+font-size: 13px;
+color: black;
+}
+
+.about:hover{text-decoration: underline;
+}
+
+.store{ position: relative;
+top: 15px;
+left:60px;
+font-size: 13px;
+color: black;
+}
+
+.store:hover{ text-decoration: underline;
+}
+.connexion {
+  background-color: hsl(216, 100%, 55%);
+  border: none;
+  color: white;
+  padding:0px 0px;
+  display: inline-block;
+  margin: 9px 25px;
+  margin-left: 15px;
+  cursor: pointer;
+  border-radius: 3px;
+height: 30px;
+width:70px;
+font-weight: bold;
+}
+
+
+ main{display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.logo{display: block;
+    padding-top: 100px;
+    padding-left: 150px;
+        margin: auto;
+
+}
+
+.search{ position: relative;
+display: block;
+top: 45px;
+left:70px;
+width: 525px;
+height:42px;
+outline:none;
+margin-left:auto;
+margin-right: auto;
+font-size: 17px;
+border-radius: 50px;
+border: 1px solid #dadce0;
+padding-left: 40px;
+padding-right: 40px;
+
+
+}
+.share{position: relative;
+top:210px;
+left:305px;}
+
+.loop{position: relative;
+  top: 5px;
+  right:200px;
+  border-top-left-radius: 50px;
+border-bottom-left-radius: 50px;
+
+}
+.mick{position: relative;
+  top: 5px;
+left:330px;
+  border-top-right-radius: 50px;
+border-bottom-right-radius: 50px;
+cursor:pointer;
+
+
+}
+
+.search:hover{box-shadow: 0 1px 7px 0px grey;
+  border-color: rgba(223,225,229,0);
+}
+
+
+
+
+.searchbutton{position: relative;
+  outline: none;
+top:35px;
+  margin:10px;
+padding: 10px;
+  width: 130px;
+  border: 0;
+  border-radius: 3px;
+  cursor:pointer;
+  background-color:#f8f9fa;
+}
+.searchbutton:hover{box-shadow: 1px rgba(0,0,0,1);
+  background-image: -web-linear-gradient: #f8f9fa, #f8f9fa;
+  background-color:#f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+
+}
+.lucky{position: relative;
+  outline: none;
+top:35px;
+margin:10px;
+  padding:10px;
+  width: 130px;
+  border: 0;
+  border-radius: 3px;
+cursor:pointer;
+background-color:#f8f9fa;
+}
+.lucky:hover{box-shadow: 1px rgba(0,0,0,1);
+  background-image: -web-linear-gradient: #f8f9fa, #f8f9fa;
+  background-color:#f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;}
+
+
+.buttons{
+display: flex;
+flex-direction: row;
+justify-content: center;
+top:20px;}
+
+
+
+}
+
+
+footer li{ float:left;
+}
+footer{position: absolute;
+  ;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+background-color: #F0F0F0;
+
+
+}
+footer .lefties li{position: relative;
+float:left;}
+
+footer .righties li{position: relative;
+float:right;}
+
+
+
+.settings{color:	#696969; font-size: 14px; margin: 0 27px 0 27px;}
+.settings:hover{text-decoration: underline;}
+.terms{color:	#696969;font-size: 14px; margin: 0 0 0 27px;}
+.terms:hover{text-decoration: underline;}
+.privacy{color:	#696969;font-size: 14px; margin: 0 0 0 0px;}
+.privacy:hover{text-decoration: underline;}
+.ci{color:	#696969;font-size: 14px; margin: 0 0 0 550px;}
+.ci:hover{text-decoration: underline;}
+.hsw{color:	#696969;font-size: 14px; margin: 0 0 0 27px;}
+.hsw:hover{text-decoration: underline;}
+
+.bs{color:	#696969;font-size: 14px; margin: 0 0 0 27px;}
+.bs:hover{text-decoration: underline;}
+.al{color:	#696969;font-size: 14px; margin: 0 0 0 27px;}
+.al:hover{text-decoration: underline;}
