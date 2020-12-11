@@ -3,6 +3,7 @@
   min-height: 100vh;
   text-align: center;
 }
+
 a{font-family: arial, sans-serif;
 text-decoration:none;
 }
@@ -19,6 +20,7 @@ margin: 0;
 padding: 0;
 font-size: 2vh;
 }
+
 .images{ position: relative;
   top: 15px ;
 margin-left:8px;
@@ -28,6 +30,7 @@ font-size:13px;
 
 .images:hover {text-decoration: underline;
 }
+
 .appdrawer{position: relative;
 
   width:25px;
@@ -47,6 +50,7 @@ header .right li{ float:right;
 
 header .left li{ float:left;
 }
+
 .gmail{ position: relative;
   top:15px;
   padding:10px;
@@ -54,6 +58,7 @@ header .left li{ float:left;
 color: black;
 
 }
+
 .gmail:hover{ text-decoration:underline;
 }
 
@@ -77,6 +82,7 @@ color: black;
 
 .store:hover{ text-decoration: underline;
 }
+
 .connexion {
   background-color: hsl(216, 100%, 55%);
   border: none;
@@ -97,50 +103,76 @@ font-weight: bold;
   flex-direction: column;
   justify-content: center;
 }
-.logo{display: block;
-    padding-top: 100px;
-    padding-left: 150px;
+
+.logo{position:relative;
+  display: block;
+    padding-top: 12vh;
+    padding-left: 19vw;
         margin: auto;
 
 }
 
-.search{ position: relative;
-display: block;
-top: 45px;
-left:70px;
-width: 525px;
-height:42px;
-outline:none;
-margin-left:auto;
-margin-right: auto;
+#search{
+    border-color:transparent;
 font-size: 17px;
-border-radius: 50px;
-border: 1px solid #dadce0;
-padding-left: 40px;
-padding-right: 40px;
+    float:left;
+    height:6vh;
+
+    outline:0;
+
+    width:32vw;
+
+}
+#button-holder{
+border-color: transparent;
+
+    cursor:pointer;
+    float:left;
+    height:5.5vh;
+    margin:1.6vh 0 0 0;
+    text-align:left;
+    width:3vw;
+border-top-left-radius: 25%;
+border-bottom-left-radius: 25%;
+}
+#button-holder img{
+  margin-bottom: 0 ;
+  margin-left: 0.5vw;
+  width: 30px;
+}
+#button2{
+
+
+    border-color: transparent;
+    cursor:pointer;
+    float:left;
+    height:5.5vh;
+    margin:11px 0 0 0;
+    text-align:center;
+    width:3vw;
+    border-top-right-radius: 25%;
+    border-bottom-right-radius: 25%;
 
 
 }
-.share{position: relative;
-top:210px;
-left:305px;}
-
-.loop{position: relative;
-  top: 5px;
-  right:200px;
-  border-top-left-radius: 50px;
-border-bottom-left-radius: 50px;
+#button2 img{
+  margin-right:4px;
+  margin-left: 4px;
+  width: 20px;
 
 }
-.mick{position: relative;
-  top: 5px;
-left:330px;
-  border-top-right-radius: 50px;
-border-bottom-right-radius: 50px;
-cursor:pointer;
+#sai{position:absolute;
+  margin-left: 24vw;
 
-
+  margin-top: 54vh;
+  margin-bottom: 10px;
+    border:thin solid #e5e5e5;
+    border-radius: 50px;
 }
+
+
+#sai:hover{box-shadow: 0 1px 7px 0px grey;
+  border-color: rgba(223,225,229,0);}
 
 .search:hover{box-shadow: 0 1px 7px 0px grey;
   border-color: rgba(223,225,229,0);
@@ -151,7 +183,7 @@ cursor:pointer;
 
 .searchbutton{position: relative;
   outline: none;
-top:35px;
+top:11vh;
   margin:10px;
 padding: 10px;
   width: 130px;
@@ -169,7 +201,7 @@ padding: 10px;
 }
 .lucky{position: relative;
   outline: none;
-top:35px;
+top:11vh;
 margin:10px;
   padding:10px;
   width: 130px;
@@ -193,13 +225,13 @@ top:20px;}
 
 
 
-}
+
 
 
 footer li{ float:left;
 }
 footer{position: absolute;
-  ;
+
   bottom: 0;
   width: 100%;
   height: 2.5rem;
@@ -221,7 +253,7 @@ float:right;}
 .terms:hover{text-decoration: underline;}
 .privacy{color:	#696969;font-size: 14px; margin: 0 0 0 0px;}
 .privacy:hover{text-decoration: underline;}
-.ci{color:	#696969;font-size: 14px; margin: 0 0 0 550px;}
+.ci{color:	#696969;font-size: 14px; margin: 0 27px 0 0;}
 .ci:hover{text-decoration: underline;}
 .hsw{color:	#696969;font-size: 14px; margin: 0 0 0 27px;}
 .hsw:hover{text-decoration: underline;}
