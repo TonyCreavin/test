@@ -9,6 +9,9 @@ text-decoration:none;
 }
 
 #contentwrap {display:flex;
+  width:50%;
+  margin-left: 25%;
+  margin-right: 25%;
   padding-bottom: 10rem;
 }
 
@@ -99,16 +102,13 @@ font-weight: bold;
 }
 
 
- main{display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
+
 
 .logo{position:relative;
 display:block;
     padding-top: 70px;
-    padding-left: 220px;
-
+    padding-left: 90px;
+max-width:100%;
     padding-right:10px;
         margin: auto;
         cursor: pointer;
@@ -128,11 +128,11 @@ font-size: 17px;
     width:460px;
 
 }
-#button-holder{
+#button-holder{position:relative;
 
 border-color: transparent;
 
-max-width: 100%
+max-width: 100%;
     float:left;
     height:1px;
     margin:10px 0 0 0;
@@ -146,13 +146,14 @@ border-bottom-left-radius: 25%;
   margin-left: 4px;
   width: 30px;
 }
-#button2{
+#button2{position: relative;
     border-color: transparent;
     cursor:pointer;
     float:left;
     height:1px;
     margin-top:11px;
     max-width: 100%;
+    margin-right:6px;
     text-align:center;
     width:3vw;
     border-top-right-radius: 25%;
@@ -166,15 +167,17 @@ border-bottom-left-radius: 25%;
   width: 20px;
 
 }
-#sai{display:flex;
+#sai{
+  display:flex;
+  flex-direction: row
 justify-content: center;
-min-width: 300px;
-margin-left: 320px;
-margin-right: 125px;
-
+min-width: 100px;
+width:90%;
 height:45px;
   margin-top: 10px;
   margin-bottom: 10px;
+  margin-left: 60px;
+
     border:thin solid #e5e5e5;
     border-radius: 50px;
 }
@@ -192,7 +195,7 @@ height:45px;
 
 .searchbutton{position: relative;
   outline: none;
-left:75px;
+
 top:10px;
   margin:10px;
 padding: 10px;
@@ -201,6 +204,7 @@ padding: 10px;
   border-radius: 3px;
   cursor:pointer;
   background-color:#f8f9fa;
+  margin-left: 60px;
 }
 .searchbutton:hover{box-shadow: 1px rgba(0,0,0,1);
   background-image: -web-linear-gradient: #f8f9fa, #f8f9fa;
@@ -219,7 +223,7 @@ margin:10px;
   border-radius: 3px;
 cursor:pointer;
 background-color:#f8f9fa;
-left:90px;
+
 }
 .lucky:hover{box-shadow: 1px rgba(0,0,0,1);
   background-image: -web-linear-gradient: #f8f9fa, #f8f9fa;
